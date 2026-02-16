@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "automated-testing"
+dynamic = ["version"]
+description = "Notes on automated testing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "jit3pam", email = "138148209+jit3pam@users.noreply.github.com"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/jit3pam/automated-testing"
+Documentation = "https://jit3pam.github.io/automated-testing/"
+
+[project.entry-points.nbdev]
+automated_testing = "automated_testing._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "automated_testing.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["automated_testing"]
+
+[tool.nbdev]

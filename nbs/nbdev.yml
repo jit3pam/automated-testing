@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "automated-testing"
+  site-url: "https://jit3pam.github.io/automated-testing"
+  description: "Notes on automated testing"
+  repo-branch: main
+  repo-url: "https://github.com/jit3pam/automated-testing"
