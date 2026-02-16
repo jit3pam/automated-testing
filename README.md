@@ -35,13 +35,14 @@ Install latest from the GitHub
 $ pip install git+https://github.com/jit3pam/automated-testing.git
 ```
 
-or from [conda](https://anaconda.org/jit3pam/automated-testing)
+or from
+[conda](https://anaconda.org/jit3pam/automated-testing)\[**TODO**\]
 
 ``` sh
 $ conda install -c jit3pam automated_testing
 ```
 
-or from [pypi](https://pypi.org/project/automated-testing/)
+or from [pypi](https://pypi.org/project/automated-testing/)\[**TODO**\]
 
 ``` sh
 $ pip install automated_testing
