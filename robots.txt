@@ -1,0 +1,1 @@
+Sitemap: https://jit3pam.github.io/automated-testing/sitemap.xml
